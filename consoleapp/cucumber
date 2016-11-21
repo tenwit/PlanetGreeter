@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+#export CLASSPATH=C:\\workspace\\planetgreeter\\consoleapp\\cucumber-core-1.2.5.jar:cucumber-java-1.2.5.jar:gherkin-2.12.2.jar:cucumber-jvm-deps-1.0.5.jar
+java -cp "cucumber-core-1.2.5.jar;cucumber-java-1.2.5.jar;gherkin-2.12.2.jar;cucumber-jvm-deps-1.0.5.jar" cucumber.api.cli.Main -p pretty $1
+
+
